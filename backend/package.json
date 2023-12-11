@@ -1,0 +1,25 @@
+{
+  "name": "anime-enclave-backend",
+  "version": "0.0.1",
+  "description": "Backend of the blogging app AnimeEnclave",
+  "main": "index.js",
+  "author": "Sergio Manuel Suárez Suárez",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
