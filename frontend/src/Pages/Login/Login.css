@@ -13,7 +13,8 @@ div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 35%;
+    width: 60%;
+    max-width: 400px;
     height: 50%;
     border-radius: 2em;
     padding: 2em;
@@ -24,14 +25,26 @@ img{
     height: 6em;
 }
 
-.loginButton{
-    padding: 0.5em;
-    margin: 1em;
-    margin-top: 3em;
+.loginButton {
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #EEF5FF; 
+    border: 2px solid #A25772;
+    transition-duration:0.5s;
+}
+
+.loginButton:hover {
+    background-color: #6583c4; 
+    color: white;
+    border-radius: 1em;
 }
 
 input {
-    border: 1px solid #A25772;
+    border: 2px solid #A25772;
     border-radius: 1em;
     color: #64696d;
     background-color: #EEF5FF;
@@ -42,13 +55,11 @@ input {
     padding: 1em;
     cursor: pointer;
     transition: border 3.3s ease-in-out;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 label{
     align-self: start;
     margin-bottom: 1em;
+    font-weight: 500;
 }
-
-input[type="text"] {
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-  }
