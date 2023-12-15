@@ -15,7 +15,7 @@ div{
     align-items: center;
     width: 60%;
     max-width: 400px;
-    height: 50%;
+    height: 55%;
     border-radius: 2em;
     padding: 2em;
 }
@@ -27,6 +27,7 @@ img{
 
 .loginButton {
     color: black;
+    margin-top: 1em;
     padding: 15px 32px;
     display: inline-block;
     font-size: 16px;
@@ -62,4 +63,5 @@ label{
     align-self: start;
     margin-bottom: 1em;
     font-weight: 500;
+    width: 90%;
 }
